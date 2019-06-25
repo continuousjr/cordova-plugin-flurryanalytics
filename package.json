@@ -4,7 +4,7 @@
   "description": "Ads support for Flurry Analytics to Cordova and Phonegap apps",
   "repository": {
     "type": "git",
-    "url": "https://github.com/blakgeek/cordova-plugin-flurryanalytics.git"
+    "url": "https://github.com/continuousjr/cordova-plugin-flurryanalytics.git"
   },
   "keywords": [
     "ecosystem:cordova",
@@ -14,9 +14,9 @@
   "author": "Carlos \"blakgeek\" Lawton",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/blakgeek/cordova-plugin-flurryanalytics/issues"
+    "url": "https://github.com/continuousjr/cordova-plugin-flurryanalytics/issues"
   },
-  "homepage": "https://github.com/blakgeek/cordova-plugin-flurryanalytics",
+  "homepage": "https://github.com/continuousjr/cordova-plugin-flurryanalytics",
   "scripts": {
     "postversion": "node scripts/bump-plugin-xml.js; git add plugin.xml; git commit plugin.xml -m \"${npm_package_version}\""
   },
